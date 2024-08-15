@@ -17,9 +17,9 @@ import (
 
 func main() {
 	// Parse CLI flags.
-	session := flag.String("session", "", "ATERNOS_SESSION")
-	lang := flag.String("lang", "en", "ATERNOS_LANGUAGE")
-	server := flag.String("server", "", "ATERNOS_SERVER")
+	session := flag.String("session", "1flTFLtIE8HfgTIVasWIO1pHoF7KYoGY9ee6GSczkVoE5Q7FnFPusDtRbQ9nnSMfN9ZIvlQxnddNRsSrr0QBgOYWUmtZkZCw4mjn", "ATERNOS_SESSION")
+	lang := flag.String("lang", "id", "ATERNOS_LANGUAGE")
+	server := flag.String("server", "KZZ4jcA5MwNuMQzd", "ATERNOS_SERVER")
 	proxy := flag.String("proxy", "", "optional proxy to connect to")
 	flag.Parse()
 
